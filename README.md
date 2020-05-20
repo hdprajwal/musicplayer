@@ -24,6 +24,7 @@ Installing dependencies for development
 sudo apt-get install python3-pyqt5
 ```
 >Install Qt-Creator to modify and create .ui files
+
 Using the player
 ```bash
 python3 main.py
