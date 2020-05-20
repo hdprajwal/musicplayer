@@ -1,2 +1,2 @@
 # musicplayer
-A music Player built with PyQt
+A minimalistic music Player built with PyQt5.
