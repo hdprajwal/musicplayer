@@ -111,7 +111,7 @@ class PlayerWindow(QMainWindow,Ui_MusicPlayer):
         for dirs in musicDirectories:
             musiclist = os.listdir(dirs)
             for song in musiclist:
-                if song.endswith('.mp3'):
+                if (song.endswith('.mp3') or song.endswith('.wav') ):
                     self.enteries.append(dirs + song)
         for x in self.enteries:
             self.playlist.addMedia(
